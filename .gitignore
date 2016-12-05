@@ -8,3 +8,8 @@
 /FSL.XF2/FSL.XF2.Droid/bin/Debug
 /FSL.XF2/FSL.XF2.Droid/obj/Debug
 /packages
+/FSL.WS/bin
+/FSL.WS/obj/Debug
+*.user
+/FSL.XF2/FSL.XF2.Droid/bin
+/FSL.XF2/FSL.XF2.iOS/obj/iPhoneSimulator/Debug
