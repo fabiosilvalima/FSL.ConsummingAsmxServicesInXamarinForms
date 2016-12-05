@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs/FSL.XF2/v14
+/FSL.XF2/FSL.XF2/bin/Debug
+/FSL.XF2/FSL.XF2/obj/Debug
+/FSL.XF2/FSL.XF2.Droid/bin/Debug
+/FSL.XF2/FSL.XF2.Droid/obj/Debug
+/packages
