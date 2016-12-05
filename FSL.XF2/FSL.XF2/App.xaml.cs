@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using FSL.XF2.Models;
 
 using Xamarin.Forms;
 
@@ -29,6 +26,20 @@ namespace FSL.XF2
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+
+        private static ICustomerSoapService _customerSoapService;
+        public static ICustomerSoapService CustomerSoapService
+        {
+            get
+            {
+                if (_customerSoapService == null)
+                {
+                    _customerSoapService = DependencyService.Get<ICustomerSoapService>();
+                }
+
+                return _customerSoapService;
+            }
         }
     }
 }

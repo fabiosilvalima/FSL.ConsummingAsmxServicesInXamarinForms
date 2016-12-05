@@ -12,6 +12,8 @@ namespace FSL.XF2
         public MainPage()
         {
             InitializeComponent();
+
+            var customers = App.CustomerSoapService.GetAllCustomers();
         }
     }
 }
