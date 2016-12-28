@@ -4,6 +4,8 @@
 
 When I started work with Xamarin Forms one of the first things I needed was consumming services. When you use Xamarin Forms consumming RestFull API services is quite easy (I will post that later). But, ASMX services will need some additional implementation for different plataforms.
 
+![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/asmx-services-xamarin.png)
+
 ---
 
 What is in the source code?
