@@ -4,7 +4,13 @@
 
 When I started work with Xamarin Forms one of the first things I needed was consumming services. When you use Xamarin Forms consumming RestFull API services is quite easy (I will post that later). But, ASMX services will need some additional implementation for different plataforms.
 
-![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/asmx-services-xamarin.png)
+![enter image description here](https://fabiosilvalima.net/wp-content/uploads/2017/01/fabiosilvalima-consumindo-servicos-asmx-com-xamarin-forms.jpg)
+
+> **FULL ARTICLE:**
+>
+> English: https://fabiosilvalima.net/en/consumming-asmx-services-xamarin-forms/
+>
+> Português: https://fabiosilvalima.net/servicos-asmx-com-xamarin-forms/
 
 ---
 
@@ -138,5 +144,5 @@ Licence:
 - Licence MIT
 
 
-  [1]: https://fabiosilvalima.wordpress.com/2016/11/10/visual-studio-2015-xamarin-forms-install-and-config/
-  [2]: http://www.fabiosilvalima.com.br
+  [1]: https://fabiosilvalima.net/configuracao-xamarin-visual-studio-2015/
+  [2]: https://www.fabiosilvalima.net
