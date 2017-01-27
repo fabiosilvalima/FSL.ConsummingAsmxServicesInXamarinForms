@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FSL.XF2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,25 @@ namespace FSL.XF2
         public MainPage()
         {
             InitializeComponent();
+        }
+        
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
 
-            var customers = App.CustomerSoapService.GetAllCustomers();
+            lvCustomers.BeginRefresh();
+            
+            var customers = await App.CustomerSoapService.GetAllCustomers();
+
+            lvCustomers.ItemsSource = customers;
+            lvCustomers.EndRefresh();
+        }
+
+        private async void lvCustomers_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var customer = e.Item as ICustomer;
+
+            var allCustomers = lvCustomers.ItemsSource as List<ICustomer>;
         }
     }
 }

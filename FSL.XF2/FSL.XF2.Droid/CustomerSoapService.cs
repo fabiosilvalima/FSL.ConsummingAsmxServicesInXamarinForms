@@ -14,7 +14,7 @@ namespace FSL.XF2.Droid
         {
             service = new CustomersWs.Customers()
             {
-                Url = "http://localhost/FSL.WS/Customers.asmx"
+                Url = "http://10.0.2.2/FSL.WS/Customers.asmx"
             };
         }
 

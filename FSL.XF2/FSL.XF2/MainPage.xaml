@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:FSL.XF2"
              x:Class="FSL.XF2.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <ListView x:Name="lvCustomers" HasUnevenRows="false" VerticalOptions="Center" HorizontalOptions="Center" RowHeight="80" ItemTapped="lvCustomers_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                        <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"></Label>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
 </ContentPage>
