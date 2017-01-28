@@ -13,3 +13,7 @@
 *.user
 /FSL.XF2/FSL.XF2.Droid/bin
 /FSL.XF2/FSL.XF2.iOS/obj/iPhoneSimulator/Debug
+/FSL.WS/obj/Release
+/FSL.XF2/FSL.XF2/obj/Release
+/FSL.XF2/FSL.XF2.Droid/obj/Release
+/FSL.XF2/FSL.XF2.iOS/obj/iPhoneSimulator/Release
