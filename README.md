@@ -143,6 +143,12 @@ Licence:
 
 - Licence MIT
 
+---
+
+![Programação no Mundo Real Design Patterns Vol. 1](https://www.fabiosilvalima.net/wp-content/uploads/2017/02/fabiosilvalima-ebook-design-patterns-INSTAGRAM-2.png)
+
+https://www.fabiosilvalima.net/ebooks/design-patterns-vol-1/
+
 
   [1]: https://fabiosilvalima.net/configuracao-xamarin-visual-studio-2015/
   [2]: https://www.fabiosilvalima.net
